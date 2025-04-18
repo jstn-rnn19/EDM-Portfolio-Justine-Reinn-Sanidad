@@ -1,0 +1,267 @@
+
+body{
+    background-color: #0b1215;
+    padding: 20px;
+}
+
+.info_container{
+    height: auto;
+}
+.sub_and_school{
+    display: flex;
+    padding: 10px, 5px;
+    justify-content: space-around;
+    width: 30rem;
+}
+.subject{
+    color: white;
+    font-family: poppins;
+    font-size: 1.9rem;
+}
+.school {
+    display: flex;
+    flex-wrap: wrap;
+    color: #e8e8e8;
+    font-family: poppins;
+    padding: 10px 2px;
+}
+
+
+
+
+.picture_and_title {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 30vh;
+    margin: 18px;
+}
+.pfp {
+    display: block;
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+
+.name, .edm {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    color: #e8e8e8;
+    font-family: poppins;
+    padding: 10px 10px; 
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.about_me_container, .educationContainer, .myProjects, .reachOut{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    max-width: 2500px;
+    margin-top: 250px;
+
+}
+
+.about_me_container {
+    padding: 8px;
+}
+.aboutMe_info, .educationInfo {
+    display: flex;
+    justify-items: center;
+}
+.pfp1, .icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    margin: 0;
+    padding: 2px;
+}
+.about_me_text {
+    color: #e8e8e8;
+    font-family: poppins;
+    padding: 5px 5px; 
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.paragraphs {
+    color: #e8e8e8;
+    font-family: poppins;
+}
+.first_paragraph, .second_paragraph {
+    font-size: 26px;
+    margin: 10px 0px;
+
+}
+.icon {
+    background-color: #e8e8e8;
+}
+.educationInfo {
+    flex-direction: column;
+}
+.educationTitle {
+    display: flex;
+    align-items: center;
+}
+.education, .midtermTitle, .contacts{
+    font-size: 2.5rem;
+    color: white;
+    font-family: poppins;
+    padding: 5px 5px; 
+    margin: 5px;
+}
+.college, .highschool, .elementary {
+    margin: 30px 20px;
+}
+h1 {
+    color: white;
+    font-family: poppins;
+    margin: 0;
+    font-size: 2.375rem;
+}
+p{
+    color: #e8e8e8;
+    font-family: poppins;
+    margin: 0;
+    padding: 5px;
+    font-size: 1.75rem;
+}
+.midtermDiv, .finalDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+} 
+
+.midtermtitle{
+    display: flex;
+    align-items: center;
+}
+.code {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+    background-color: white;
+    padding: 1px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+}
+.midtermContainer{
+    display: grid;
+    max-height: auto;
+    min-height: 300px;
+    overflow: hidden;
+    gap: 20px 40px;
+    grid-template-columns: repeat(auto-fit, minmax(415px, 1fr));
+    justify-content: center;
+    padding: 20px;
+}
+.taskTitle {
+    font-size: 1.1rem;
+    color: white;
+    font-family: poppins;
+    padding: 5px 5px; 
+    margin: 15px 0px;
+    margin-left: 0px;
+    font-size: 2.125rem;
+}
+.midterm_projectTitle{
+    font-size: 24px;
+    margin: 10px 0px;
+    font-size: 2.375rem;
+}
+.midtermTask1, .midtermTask2, .midtermTask3, .finalTask1, .finalTask2, .finalTask3{
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    min-height: 580px;
+}
+.finalContainer {
+    display: grid;
+    max-height: auto;
+    min-height: 300px;
+    overflow: hidden;
+    gap: 20px 40px;
+    grid-template-columns: repeat(auto-fit, minmax(415px, 1fr));
+    justify-content: center;
+    padding: 20px;
+}
+.finalTask1, .finalTask2, .finalTask3 {
+    display: flex;
+    flex-direction: column;
+
+}   
+
+
+
+.reachOut {
+    display: flex;
+    flex-direction: column;
+}
+.contactdetails {
+    display: flex;
+    align-items: center;
+}
+.send {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: fill;
+    border: 2px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    margin: 0;
+    padding: 2px;
+    background-color: white;
+}
+.reachout {
+    margin-left: 10px;
+}
+.contactInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactDetails {
+    display: grid;
+    min-height: 300px;
+    max-height: auto;
+    overflow: hidden;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    align-items: center;
+}
+a {
+    text-decoration: none;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.phone, .email, .fb, .ig {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: fill;
+    border: 2px solid white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    margin: 0;
+    padding: 2px;
+    background-color: white;
+}
+.details{
+    display: flex;
+    display: inline-block;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+
