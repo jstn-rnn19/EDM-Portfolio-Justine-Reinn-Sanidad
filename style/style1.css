@@ -73,8 +73,35 @@
     transition-duration: .3s;
 }
 
+@media (max-width: 500px) {
+    .midtermTask1, .midtermTask2, .midtermTask3, .finalTask1, .finalTask2, .finalTask3 {
+        margin: auto;
+        word-break: break-all;
+        .taskTitle{
+            font-size: 1rem;
+        }
+        width: 300px;
+    }
+    .midtermTask1 p, .midtermTask2 p, .midtermTask3 p, .finalTask1 p, .finalTask2 p, .finalTask3 p {
+        font-size: 0.8rem;
+    }
+    
+}
 
-
+@media (max-width: 340px) {
+    .midtermTask1, .midtermTask2, .midtermTask3, .finalTask1, .finalTask2, .finalTask3 {
+        margin: auto;
+        word-break: break-all;
+        .taskTitle{
+            font-size: 1rem;
+        }
+        width: 30px;
+    }
+    .midtermTask1 p, .midtermTask2 p, .midtermTask3 p, .finalTask1 p, .finalTask2 p, .finalTask3 p {
+        font-size: 0.8rem;
+    }
+    
+}
 
 .midtermTask1, .midtermTask2, .midtermTask3, .finalTask1, .finalTask2, .finalTask3 {
     border: 2px solid #747474;
