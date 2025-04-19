@@ -1,0 +1,179 @@
+.about_me_container{
+    border: 2px solid #747474;
+    background: linear-gradient(135deg, rgba(202, 202, 202, 0.1),  rgba(144, 144, 144, 0));
+    backdrop-filter: blur(8px);
+    padding: 10px;
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 8px #cacaca;
+    transition-duration: 0.3s;
+}
+
+.about_me_container:hover, .about_me_container:focus, .about_me_container:active {
+    box-shadow: 0 0 20px #cacaca;
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+}
+.first_paragraph, .second_paragraph {
+    background: linear-gradient(135deg, rgba(202, 202, 202, 0.2),  rgba(144, 144, 144, 0.1));
+    backdrop-filter: blur(2px);
+    padding: 10px;
+    -webkit-backdrop-filter: blur(2px);
+    border-radius: 8px;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+
+.first_paragraph:hover, .first_paragraph:focus, .first_paragraph:active,
+.second_paragraph:hover, .second_paragraph:focus, .second_paragraph:active{
+    box-shadow: 0 0 20px #cacaca;
+    -webkit-transform: scale(1.01);
+    transform: scale(1.001);
+}
+.college, .highschool, .elementary{
+    position: relative;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    z-index: 1;
+    border: .5px solid #cacaca;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.college:hover::after, .college:focus::after, .college:active::after,
+.highschool:hover::after, .highschool:focus::after, .highschool:active::after,
+.elementary:hover::after, .elementary:focus::after, .elementary:active::after{
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: -2;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background: linear-gradient(135deg, rgba(202, 202, 202, 0.1),  rgba(144, 144, 144, 0));
+    backdrop-filter: blur(8px);
+    padding: 10px;
+    -webkit-backdrop-filter: blur(8px);
+    border-radius: 8px;
+    cursor: pointer;
+    box-shadow: 0 0 8px #cacaca;
+    transform: translate(50% 50%);
+    width: 100%;
+    height: 100%;
+}
+.college:hover, .college:focus, .college:active, 
+.highschool:hover, .highschool:focus, .highschool:active,
+.elementary:hover, .elementary:focus, .elementary:active{
+    -webkit-transform: scale(1.001);
+    transform: scale(1.01);
+    transition: transform 0.5s;
+    transition-duration: .3s;
+}
+
+@media (max-width: 500px) {
+    .midtermTask1, .midtermTask2, .midtermTask3, .finalTask1, .finalTask2, .finalTask3 {
+        margin: auto;
+        word-break: break-all;
+        .taskTitle{
+            font-size: 1rem;
+        }
+        width: 300px;
+    }
+    .midtermTask1 p, .midtermTask2 p, .midtermTask3 p, .finalTask1 p, .finalTask2 p, .finalTask3 p {
+        font-size: 0.8rem;
+    }
+    
+}
+
+@media (max-width: 340px) {
+    .midtermTask1, .midtermTask2, .midtermTask3, .finalTask1, .finalTask2, .finalTask3 {
+        margin: auto;
+        word-break: break-all;
+        .taskTitle{
+            font-size: 1rem;
+        }
+        width: 30px;
+    }
+    .midtermTask1 p, .midtermTask2 p, .midtermTask3 p, .finalTask1 p, .finalTask2 p, .finalTask3 p {
+        font-size: 0.8rem;
+    }
+    
+}
+
+.midtermTask1, .midtermTask2, .midtermTask3, .finalTask1, .finalTask2, .finalTask3 {
+    border: 2px solid #747474;
+    background: linear-gradient(135deg, rgba(202, 202, 202, 0.1),  rgba(144, 144, 144, 0));
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 14px;
+    cursor: pointer;
+    box-shadow: 0 0 8px #cacaca;
+    transition-duration: 0.3s;
+    z-index: 1;
+    font-size: 1.75rem;
+}
+.midtermTask1:hover, .midtermTask1:focus, .midtermTask1:active, .midtermTask2:hover, 
+.midtermTask2:focus, .midtermTask2:active,
+.midtermTask3:hover, .midtermTask3:focus, .midtermTask3:active,
+.finalTask1:hover, .finalTask1:focus, .finalTask1:active, 
+.finalTask2:hover, .finalTask2:focus, .finalTask2:active, 
+.finalTask3:hover, .finalTask3:focus, .finalTask3:active{
+    box-shadow: 0 0 20px #cacaca;
+    -webkit-transform: scale(1.01);
+    transform: scale(1.01);
+}
+.myprojectTask {
+    display: inline-block;
+    position: relative;
+    margin-left: 10px;
+    text-decoration: none;
+    color: #e8e8e8;
+    font-family: Poppins, sans-serif;
+    padding: 20px;
+    border-radius: 18px;
+    border: 1px solid #acacac;
+    background: rgba(144, 144, 144, 0.25);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    transition: color 0.3s ease;
+    width: max-content;
+    margin-top: auto;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.myprojectTask::after {
+    content: 'See My Project';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(243, 243, 243);
+    border: 1px solid #acacac;
+    border-radius: 16px;
+    color: black;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 2;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.myprojectTask:hover {
+    color: transparent;
+    border: 0;
+}
+.myprojectTask:hover::after {
+    opacity: 1;
+}
