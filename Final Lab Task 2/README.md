@@ -16,7 +16,7 @@ submissions, and assignments. Identify the primary and foreign keys and ensure p
 - Click the connection made
 ## STEP 2:
 - Create a DATABASE BY using  
- `CREATE DATABE database_name`
+ `CREATE DATABASE database_name`
 - Use the database that has created by using  
   `USE database_name`
 ### Type the following data types attributes
