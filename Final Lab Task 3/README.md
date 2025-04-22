@@ -58,6 +58,8 @@ Add a `CHECK` constraint to ensure that the `price` of the product must be great
 #### HERE IS THE QUERY STATEMENT AND TABLE STRUCTURE
 ![](image/Screenshot%202025-04-12%20145530.png)
 
+### HERE IS THE ER DIAGRAM
+![](image/Screenshot%202025-04-12%20151511.png)
 #### HERE IS THE MYSQL FILE
 [Products Table](file/task_3_db_products.sql)  
  
