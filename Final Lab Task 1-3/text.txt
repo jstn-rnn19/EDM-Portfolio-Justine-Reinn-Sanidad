@@ -43,3 +43,10 @@ SELECT category, SUM(students_enrolled) AS 'Total Enrolled Student' FROM courses
 
 -- TASK 3
 SELECT * FROM courses WHERE students_enrolled = enrollment_limit;
+
+
+-- TASK 4
+SELECT SUM(students_enrolled) AS 'Total Enrolled Student' FROM courses;
+
+-- TASK 5
+SELECT * FROM courses ORDER BY students_enrolled DESC;
