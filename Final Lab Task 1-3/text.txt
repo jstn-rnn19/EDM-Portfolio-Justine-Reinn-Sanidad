@@ -49,4 +49,4 @@ SELECT * FROM courses WHERE students_enrolled = enrollment_limit;
 SELECT SUM(students_enrolled) AS 'Total Enrolled Student' FROM courses;
 
 -- TASK 5
-SELECT * FROM courses ORDER BY students_enrolled DESC;
+SELECT * FROM courses ORDER BY students_enrolled ASC;
