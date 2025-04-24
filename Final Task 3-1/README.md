@@ -3,12 +3,12 @@
 1.	Create a database named online_courseDB
 2.	Use the online_courseDB
 3.	Copy and paste the initial query then perform the SELECT statements required for each problems in the figure below: [download onlineCourse.sql file](file/online_courses.sql)     
-   `CREATE TABLE courses  
-  	( id INT AUTO_INCREMENT PRIMARY KEY,
-    course_name VARCHAR(255) NOT NULL,  
-    category VARCHAR(100) NOT NULL,  
-    enrollment_limit INT NOT NULL,  
-    students_enrolled INT NOT NULL );  `
+`CREATE TABLE courses  
+( id INT AUTO_INCREMENT PRIMARY KEY,
+course_name VARCHAR(255) NOT NULL,  
+category VARCHAR(100) NOT NULL,  
+enrollment_limit INT NOT NULL,  
+students_enrolled INT NOT NULL );`
 
 `INSERT INTO courses (course_name, category, enrollment_limit, students_enrolled)
 VALUES  
