@@ -29,3 +29,5 @@ Beyond academics, I love experimenting with new coding projects, exploring advan
 #### **Final Lab Task 2:** [Transforming ER Model to Relational Tables](Final%20Lab%20Task%202)
 #### **Final Lab Task 3:** [Table Manipulation](Final%20Lab%20Task%203)
 #### **Final Task 3-1** [Using MYSQL Clause](Final%20Task%203-1)
+#### **Final Task 5** [Using SQL views and Stored Procedures and Stored Functions](Final%20Task%205)
+#### **Final Task 6** [MongoDB Practice](Final%20Lab%20Task%206)
